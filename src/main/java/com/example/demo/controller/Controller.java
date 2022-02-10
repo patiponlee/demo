@@ -17,6 +17,6 @@ public class Controller {
 
     @PostMapping(value = "/test")
     public String test() {
-        return "test";
+        return "hello world";
     }
 }
